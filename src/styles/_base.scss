@@ -1,0 +1,10 @@
+@import './vars';
+
+header,footer {
+    background-color: $background-color;
+    color: $font-color;
+    margin: 10px 20px;
+    font-family: cursive;
+    clear: both;
+    padding: 5px 10px;
+}

@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="counter-app">
-      <h1> Props And State </h1>
+      <h1> RESTy </h1>
     </header>
   );
 };
