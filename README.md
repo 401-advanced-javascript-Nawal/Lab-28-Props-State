@@ -3,7 +3,7 @@
 ### Author: Nawal Suliman 
 
 ### Links and Resources
-- [submission PR](https://github.com/401-advanced-javascript-Nawal/Lab-27-test-deploy-react/pull/1)
+- [submission PR](https://github.com/401-advanced-javascript-Nawal/Lab-28-Props-State/pull/1)
 - [ci/cd](https://github.com/401-advanced-javascript-Nawal/Lab-28-Props-State/actions)
 
 ### Setup
