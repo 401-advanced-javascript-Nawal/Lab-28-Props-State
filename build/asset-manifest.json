@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/css/main.f50e04ac.chunk.css",
+    "main.js": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/main.596bec99.chunk.js",
+    "main.js.map": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/main.596bec99.chunk.js.map",
+    "runtime-main.js": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/runtime-main.19aa4db6.js",
+    "runtime-main.js.map": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/runtime-main.19aa4db6.js.map",
+    "static/js/2.30d4add4.chunk.js": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/2.30d4add4.chunk.js",
+    "static/js/2.30d4add4.chunk.js.map": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/2.30d4add4.chunk.js.map",
+    "index.html": "/401-advanced-javascript-Nawal/Lab-28-Props-Stateindex.html",
+    "precache-manifest.8229ad8b3ac6025551b6611d98db52c3.js": "/401-advanced-javascript-Nawal/Lab-28-Props-Stateprecache-manifest.8229ad8b3ac6025551b6611d98db52c3.js",
+    "service-worker.js": "/401-advanced-javascript-Nawal/Lab-28-Props-Stateservice-worker.js",
+    "static/css/main.f50e04ac.chunk.css.map": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/css/main.f50e04ac.chunk.css.map",
+    "static/js/2.30d4add4.chunk.js.LICENSE.txt": "/401-advanced-javascript-Nawal/Lab-28-Props-Statestatic/js/2.30d4add4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19aa4db6.js",
+    "static/js/2.30d4add4.chunk.js",
+    "static/css/main.f50e04ac.chunk.css",
+    "static/js/main.596bec99.chunk.js"
+  ]
+}
