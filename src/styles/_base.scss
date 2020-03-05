@@ -46,7 +46,7 @@ label {
     font-size: larger;
 }
 
-.methodC button:hover {
+.submitB:hover {
     color: rgb(2, 214, 13);
 }
 
@@ -54,4 +54,14 @@ label {
     width: 50%;
     height: 500px;
     margin-bottom: 30px;
+}
+
+.methods:hover {
+    color: rgb(18, 236, 236);
+}
+
+.methods { 
+    padding-right: 30px;
+    margin-right: 10px;
+    text-align: center;
 }

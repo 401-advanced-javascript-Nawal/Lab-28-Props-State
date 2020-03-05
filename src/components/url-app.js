@@ -6,26 +6,31 @@ class Resty extends React.Component {
         super(props)
         this.state = {
             url: '',
-            results : []
+            restMod : '',
+            // headers : {},
+            // body : {}
         } // end of state object
     } // end of constructor 
 
-    handleSubmit = results => {
-        this.setState({ results });
-      };
-      
     handleURL = event => {
         event.preventDefault();
         let url = event.target.value;
         console.log('urlEvent : ', url);
         this.setState({ url });
-    }
+    } // end of handleURL event 
     
+    handleGet = event => {
+        event.preventDefault();
+        let getMethod = event.target.value;
+        console.log('getMethod : ', getMethod);
+        this.setState({ getMethod });
+
+    } // end of handleGet event 
     render() {
         return (
             <>
                 <Urlfun url1={this.state.url} />
-                <Form handler={this.handleURL} />
+                <Form handler={this.handleURL} gethandler={this.handleGet} />
             </>
         );
 
@@ -49,18 +54,18 @@ function Form(props) {
                 </label>
             </section>
             <section className="methodC">
-                <label> GET</label>
-                <label> POST</label>
-                <label> PUT</label>
-                <label> DELETE</label>
-                <label> PATCH</label>
-                <button> GO!</button>
+                <button className="methods" onClick={props.gethandler} value="get"> GET</button>
+                <button className="methods" onClick={props.gethandler} value="post"> POST</button>
+                <button className="methods" onClick={props.gethandler} value="put"> PUT</button>
+                <button className="methods" onClick={props.gethandler} value="patch"> PATCH</button>
+                <button className="methods" onClick={props.gethandler} value="delete"> DELETE</button>
+                <button className="submitB"> GO!</button>
             </section>
-            <textarea></textarea>
+    {/* <textarea> {props.gethandler}</textarea> */}
         </form>
-
     );
-}
+} // end of Form function 
+
 
 
 export default Resty;
