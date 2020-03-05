@@ -8,7 +8,7 @@ class Resty extends React.Component {
         this.state = {
             url: '',
             restMod: '',
-            results : []
+            results: []
             // headers : {},
             // body : {}
         } // end of state object
@@ -18,10 +18,11 @@ class Resty extends React.Component {
         event.preventDefault();
         console.log('this.state.url : ', this.state.url);
         superagent.get(`${this.state.url}`)
-            .then( data => {
-                console.log('data',data.body.results)
-                let res = data.body.results ;
-                this.setState({ results:res });  
+            .then(data => {
+                console.log('data results', data.body.results)
+                console.log('data headers', data.header)
+                let res = data.body.results;
+                this.setState({ results: res });
             })
     } // end of submitRes event 
 
@@ -39,13 +40,13 @@ class Resty extends React.Component {
         let getMethod = event.target.value;
         console.log('getMethod : ', getMethod);
         this.setState({ getMethod });
-
     } // end of handleGet event 
     render() {
         return (
             <>
                 <Urlfun url1={this.state.url} />
-                <Form handler={this.handleURL} gethandler={this.handleGet} handleSubmit={this.submitRes} />
+                <Form handler={this.handleURL} gethandler={this.handleGet} handleSubmit={this.submitRes} res1={this.state.results}/>
+                {/* <Print  /> */}
             </>
         );
 
@@ -55,6 +56,10 @@ class Resty extends React.Component {
 
 } // end of resty class 
 
+function Print({ res1 }) {
+    console.log('res1 : ', res1);
+    return <p> ppppppppppppppp {res1}</p>
+}
 
 function Urlfun({ url1 }) {
     return <h1> URL Full Address : {url1}</h1>
@@ -77,7 +82,7 @@ function Form(props) {
                 <button className="submitB"> GO!</button>
             </section>
             <p> The Results </p>
-    <textarea></textarea>
+            <textarea type="text">props.results</textarea>
         </form>
     );
 } // end of Form function 
