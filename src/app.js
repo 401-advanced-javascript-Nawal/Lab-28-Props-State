@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './modules/Footer.js';
 import Header from './modules/Header.js';
-import Resty from './components/resty.js';
+import Resty from './components/url-app.js';
 
 import './app.scss';
 

@@ -5,18 +5,22 @@ class Resty extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            url: ''
-        } // end of state
+            url: '',
+            results : []
+        } // end of state object
     } // end of constructor 
 
+    handleSubmit = results => {
+        this.setState({ results });
+      };
+      
     handleURL = event => {
         event.preventDefault();
         let url = event.target.value;
         console.log('urlEvent : ', url);
         this.setState({ url });
     }
-
-
+    
     render() {
         return (
             <>
@@ -40,9 +44,9 @@ function Form(props) {
     return (
         <form>
             <section>
-            <label className="apiC"> API URL :
+                <label className="apiC"> API URL :
             <input type='text' onChange={props.handler} />
-            </label>
+                </label>
             </section>
             <section className="methodC">
                 <label> GET</label>
