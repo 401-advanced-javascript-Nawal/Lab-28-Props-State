@@ -29,7 +29,6 @@ input {
 }
 
 .methodC  {
-    color: black;
     font-weight: $font-size;
     font-weight: $font-size;
     font-size: larger;
@@ -40,8 +39,8 @@ label {
     padding-right: 30px;
 }
 
-.methodC button {
-    color: rgb(1, 6, 80);
+.submitB {
+    color: rgb(241, 81, 220);
     font-weight: $font-size;
     font-size: larger;
 }
@@ -50,10 +49,11 @@ label {
     color: rgb(2, 214, 13);
 }
 
-.methodC textarea {
-    width: 50%;
-    height: 500px;
+textarea {
+    width: 60%;
+    height: 400px;
     margin-bottom: 30px;
+    overflow: scroll;
 }
 
 .methods:hover {
@@ -63,5 +63,15 @@ label {
 .methods { 
     padding-right: 30px;
     margin-right: 10px;
-    text-align: center;
+    font-weight: $font-size;
+    font-size: larger;
+    color: rgb(1, 6, 80);
+}
+
+p {
+    color: rgb(1, 6, 80);
+    font-weight: $font-size;
+    font-size: larger;
+    text-decoration: underline ;
+    text-decoration-color: rgb(212, 6, 185);
 }
