@@ -3,12 +3,21 @@
 header,footer {
     background-color: $background-color;
     color: $font-color;
-    margin: 10px 20px;
     font-family: cursive;
     clear: both;
     padding: 5px 10px;
+    margin-bottom: 20px;
 }
 
 body {
-    background-color: rgb(243, 169, 231);
+    background-color: rgb(187, 241, 248);
+    margin: 20px 50px;
 }
+
+input {
+    padding: 10px 20px ;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+

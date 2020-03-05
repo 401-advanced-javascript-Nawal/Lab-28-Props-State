@@ -26,7 +26,9 @@ class Resty extends React.Component {
 function Form(props) {
     return(
         <form>
+            <label> URL :  
             <input />
+            </label>
         </form>
     );
 }
