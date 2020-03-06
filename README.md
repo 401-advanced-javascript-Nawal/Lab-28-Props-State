@@ -20,3 +20,4 @@
 - npm run lint 
 
 #### UML
+https://github.com/401-advanced-javascript-Nawal/Lab-28-Props-State/blob/get-react/20200306_224507.jpg
