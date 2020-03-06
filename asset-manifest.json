@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Lab-28-Props-State/static/css/main.a26df84b.chunk.css",
+    "main.js": "/Lab-28-Props-State/static/js/main.e282a564.chunk.js",
+    "main.js.map": "/Lab-28-Props-State/static/js/main.e282a564.chunk.js.map",
+    "runtime-main.js": "/Lab-28-Props-State/static/js/runtime-main.e5b12a1f.js",
+    "runtime-main.js.map": "/Lab-28-Props-State/static/js/runtime-main.e5b12a1f.js.map",
+    "static/js/2.0900cfd8.chunk.js": "/Lab-28-Props-State/static/js/2.0900cfd8.chunk.js",
+    "static/js/2.0900cfd8.chunk.js.map": "/Lab-28-Props-State/static/js/2.0900cfd8.chunk.js.map",
+    "index.html": "/Lab-28-Props-State/index.html",
+    "precache-manifest.ae5857fbe88111553662844cbd28589f.js": "/Lab-28-Props-State/precache-manifest.ae5857fbe88111553662844cbd28589f.js",
+    "service-worker.js": "/Lab-28-Props-State/service-worker.js",
+    "static/css/main.a26df84b.chunk.css.map": "/Lab-28-Props-State/static/css/main.a26df84b.chunk.css.map",
+    "static/js/2.0900cfd8.chunk.js.LICENSE.txt": "/Lab-28-Props-State/static/js/2.0900cfd8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5b12a1f.js",
+    "static/js/2.0900cfd8.chunk.js",
+    "static/css/main.a26df84b.chunk.css",
+    "static/js/main.e282a564.chunk.js"
+  ]
+}
