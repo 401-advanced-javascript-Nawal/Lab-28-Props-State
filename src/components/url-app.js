@@ -9,8 +9,8 @@ class Resty extends React.Component {
       url: '',
       restMod: '',
       results: [],
-      headers : {},
-      body : {}
+      // headers : {},
+      // body : {}
     }; // end of state object
   } // end of constructor 
 
