@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<URL-App />  Renders correctly  1`] = `
+Array [
+  <h1>
+     URL Full Address : 
+    
+  </h1>,
+  <form
+    onSubmit={[Function]}
+  >
+    <section>
+      <label
+        className="apiC"
+      >
+         API URL :
+        <input
+          onChange={[Function]}
+          type="text"
+        />
+      </label>
+    </section>
+    <section
+      className="methodC"
+    >
+      <button
+        className="methods"
+        onClick={[Function]}
+        value="get"
+      >
+         GET
+      </button>
+      <button
+        className="methods"
+        onClick={[Function]}
+        value="post"
+      >
+         POST
+      </button>
+      <button
+        className="methods"
+        onClick={[Function]}
+        value="put"
+      >
+         PUT
+      </button>
+      <button
+        className="methods"
+        onClick={[Function]}
+        value="patch"
+      >
+         PATCH
+      </button>
+      <button
+        className="methods"
+        onClick={[Function]}
+        value="delete"
+      >
+         DELETE
+      </button>
+      <button
+        className="submitB"
+      >
+         GO!
+      </button>
+    </section>
+    <p>
+       The Results 
+    </p>
+    <textarea
+      type="text"
+    />
+  </form>,
+]
+`;

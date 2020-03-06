@@ -44,7 +44,7 @@ class Resty extends React.Component {
     render() {
       return (
             <>
-                <Urlfun url1={this.state.url} />
+                <Urlfun url1={this.state.url}/>
                 <Form handler={this.handleURL} gethandler={this.handleGet} handleSubmit={this.submitRes} res1={this.state.results} />
             </>
       );
