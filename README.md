@@ -22,3 +22,4 @@
 #### UML
 - [UML](https://github.com/401-advanced-javascript-Nawal/Lab-28-Props-State/blob/get-react/20200306_224507.jpg)
 - [ RESTy Output On Console ](https://github.com/401-advanced-javascript-Nawal/Lab-28-Props-State/blob/get-react/resty.PNG)
+- [pg deployment](https://401-advanced-javascript-nawal.github.io/Lab-28-Props-State/)
